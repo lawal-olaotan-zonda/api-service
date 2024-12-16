@@ -1,0 +1,8 @@
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.csproj.AssemblyReference.cache
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.AssemblyInfoInputs.cache
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.AssemblyInfo.cs
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.csproj.CoreCompileInputs.cache
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net8.0/REVIEWAPI.sourcelink.json
