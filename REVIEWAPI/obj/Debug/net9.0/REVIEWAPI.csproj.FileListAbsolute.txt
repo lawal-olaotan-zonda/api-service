@@ -53,3 +53,11 @@
 /Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net9.0/REVIEWAPI.pdb
 /Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net9.0/REVIEWAPI.genruntimeconfig.cache
 /Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/obj/Debug/net9.0/ref/REVIEWAPI.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/lawalolaotan/Desktop/rest-api/REVIEWAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll

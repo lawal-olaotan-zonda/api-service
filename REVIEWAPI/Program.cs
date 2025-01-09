@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +9,9 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 {
     options.SerializerOptions.WriteIndented = true;
     options.SerializerOptions.IncludeFields = true;
+    options.SerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    options.SerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+    
 });
 builder.Services.AddDbContext<EmailDb>(opt => opt.UseInMemoryDatabase("EmailList"));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -18,7 +24,15 @@ builder.Services.AddOpenApiDocument(config =>
     config.Version = "v1";
 });
 
+// Enables bearer token authentication
+builder.Services.AddAuthentication().AddJwtBearer();
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
+
+app.UseCors();
+app.UseAuthentication();
+app.UseAuthorization();
 
 if (app.Environment.IsDevelopment())
 {
